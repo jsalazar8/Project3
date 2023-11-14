@@ -88,7 +88,7 @@ footer {
 .indexul {
   list-style-type: none;
 }
-@media (max-width:600) {
+@media (max-width:600px) {
   #indexbody {
     color:white;
     padding-top: 10%;
