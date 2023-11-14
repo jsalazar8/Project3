@@ -211,3 +211,24 @@ footer {
   font-family: 'Roboto Slab', serif;
   color:blanchedalmond
 }
+
+/*map.html css*/
+#mapwrapper {
+  width: 850px;
+  height: 600px;
+  background-color: red;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#mapcanvas { 
+  width: 700px;
+  height: 500px;
+  background-color:blue;
+  margin: 25px auto;
+}
+h1{
+  color:black;
+}
+p {
+  color: black;
+}
