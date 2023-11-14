@@ -77,11 +77,10 @@ footer {
   margin: 20px;
   border-radius: 5px;
 }
-#indexsection:hover {
+.indexsection:hover {
   background-color: black;
   transform:scale(.95);
 }
-
 .indexh {
   font-family: 'Roboto Slab', serif;
   color:aliceblue 
@@ -89,7 +88,26 @@ footer {
 .indexul {
   list-style-type: none;
 }
-
+@media (max-width:600) {
+  #indexbody {
+    color:white;
+    padding-top: 10%;
+	  padding-left: 10%;
+	  padding-right: 10%;
+	  padding-bottom: 10%;
+  }
+}
+@media (orientation:landscape){
+  #indexbody{
+    background-color: black;
+  }
+  .indexsection{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    font-family:"Times New Roman", Times, serif;
+  }
+}
 /*aboutme.html css*/
 #aboutmebody {
   background: rgb(2,0,36);

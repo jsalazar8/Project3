@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
   </head>
   <body id="aboutmebody">
     <header>
@@ -30,14 +32,22 @@
       <p>I am the second oldest of five childern. I have three sisters and one brother. My parents are both from Guerreo, Mexico</p>
       <img class="aboutmeimg" src="images/mexicoflag.png" alt="Mexico Flag">
       <h2 class="aboutmeh">Education</h2>
-      <h3 class="aboutmeh">Peck Elementary School</h3>
-      <img class="aboutmeimg" src="images/peck.jpg" alt="Peck Elementary School">
-      <h3 class="aboutmeh">Robert J. Richardson Middle School</h3>
-      <img class="aboutmeimg" src="images/richardson.jpg" alt="Robert J. Richardson Middle School">
-      <h3 class="aboutmeh">Marie Sklodowska Curie Metropolitan High School</h3>
-      <img class="aboutmeimg" src="images/curie.jpg" alt="Marie Sklodowska Curie Metropolitan High School">
-      <h3 class="aboutmeh">Illinois Institute of Technology</h3>
-      <img class="aboutmeimg" src="images/iit.jpg" alt="Illinois Institute of Technology Mies Campus">
+      <ul>
+        <li><h3 class="aboutmeh">Peck Elementary School</h3></li>
+        <li><h3 class="aboutmeh">Robert J. Richardson Middle School</h3></li>
+        <li><h3 class="aboutmeh">Marie Sklodowska Curie Metropolitan High School</h3></li>
+        <li><h3 class="aboutmeh">Illinois Institute of Technology</h3></li>
+      </ul>
+      <div class="swiffy-slider">
+        <ul class="slider-container">
+          <li><img class="aboutmeimg" src="images/peck.jpg" alt="Peck Elementary School"></li>
+          <li><img class="aboutmeimg" src="images/richardson.jpg" alt="Robert J. Richardson Middle School"></li>
+          <li><img class="aboutmeimg" src="images/curie.jpg" alt="Marie Sklodowska Curie Metropolitan High School"></li>
+          <li><img class="aboutmeimg" src="images/iit.jpg" alt="Illinois Institute of Technology Mies Campus"></li>
+        </ul>
+      <button type="button" class="slider-nav"></button>
+      <button type="button" class="slider-nav slider-nav-next"></button>
+      </div>
     </div>
     <div id="aboutmeextras">
       <h2 class="aboutmeh">Languages</h2>
