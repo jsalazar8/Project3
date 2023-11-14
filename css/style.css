@@ -40,14 +40,14 @@
 h1{
   text-align: center;
   font-family: 'Roboto Slab', serif;
-  color: beige;
+  color:navajowhite;
 }
 
 
 p {
   margin:auto;
   font-family:"Times New Roman", Times, serif;
-  color:beige
+  color:navajowhite;
 }
 li {
   color:beige
@@ -225,10 +225,11 @@ footer {
   height: 500px;
   background-color:blue;
   margin: 25px auto;
-}
-h1{
   color:black;
 }
-p {
-  color: black;
+#maph1{
+  color:black;
+}
+.mapp{
+  color:black;
 }
