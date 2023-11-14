@@ -1,0 +1,195 @@
+/*css for all pages*/
+#main-navbar {
+  background-color:dodgerblue;
+  overflow: hidden;
+}
+#navbar-container { 
+  float: left;
+  width: 100%;
+  position: relative;
+}
+  
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;  
+}
+  
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+  
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  font-family: 'Roboto Slab', serif;
+  color: beige;
+  text-decoration: none;
+}
+  
+#main-navbar ul li a:hover {
+  background-color:#000;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  color: beige;
+}
+
+
+p {
+  margin:auto;
+  font-family:"Times New Roman", Times, serif;
+  color:beige
+}
+li {
+  color:beige
+}
+
+footer {
+  margin:auto;
+  font-family:"Times New Roman", Times, serif;
+  background-color: dodgerblue;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+}
+
+/*index.html css*/
+#indexbody {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 82%);
+  text-align: center;
+}
+#indexh1:hover{
+  transform:scale(1.5);
+}
+.indexsection {
+  padding: 20px;
+  background-color: rgb(0, 76, 255);
+  margin: 20px;
+  border-radius: 5px;
+}
+#indexsection:hover {
+  background-color: black;
+  transform:scale(.95);
+}
+
+.indexh {
+  font-family: 'Roboto Slab', serif;
+  color:aliceblue 
+}
+.indexul {
+  list-style-type: none;
+}
+
+/*aboutme.html css*/
+#aboutmebody {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,0.9866071428571429) 0%, rgba(255,5,5,1) 78%);
+}
+#aboutmeheader {
+  color: beige ;
+  outline: 2px dashed beige;
+}
+.aboutmeh {
+  font-family: 'Roboto Slab', serif;
+  color:blanchedalmond
+}
+
+#aboutmemain {
+  float:left;
+  width: 60%;
+  margin: 0 5%;
+  outline: dashed beige;
+}
+
+#aboutmeextras {
+  float:left;
+  width: 25%;
+  margin: 0 5% 0 0; 
+  outline: dashed beige;
+}
+
+#aboutmefooter {
+  clear:left;
+}
+#aboutmeul {
+  list-style-type: none;
+}
+.aboutmeimg {
+  display:block;
+  width: 500px ;
+  height: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.aboutmeimg:hover{
+  transform: scale(1.2) rotate(360deg);
+}
+
+/*easportsfc.html css */
+#easportsfc24body {
+  background: rgb(0,36,3);
+  background: linear-gradient(90deg, rgba(0,36,3,0.9866071428571429) 0%, rgba(21,217,14,1) 78%);
+}
+
+#easportsfc24wrapper {
+  width: 960px;
+}
+
+#easportsfc24header {
+  display:block;
+  margin: 0 auto;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+#easportsfc24header:hover{
+  transform: scale(1.2) rotate(360deg);  
+}
+
+#easportsfc24main {
+  float: left;
+  width: 650px;
+  margin: 0 20px;
+}
+
+#easportsfc24extras {
+  float: left;
+  width: 250px;
+  margin: 0 20px 0 0;
+}
+
+#easportsfc24footer {
+  clear:left;
+  padding: 15px;
+}
+
+.easportsfc24img{
+  display:block;
+  width: 500px ;
+  height: 250px;
+  margin: 0 auto;
+  padding: 20px;
+}  
+#easportsfc24iframe {
+  display:block;
+  width: 500px ;
+  height: 250px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.easportsfc24h {
+  font-family: 'Roboto Slab', serif;
+  color:blanchedalmond
+}
